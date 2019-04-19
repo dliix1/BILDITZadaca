@@ -7,9 +7,9 @@ public class KalkulatorTest {
 	public static void main(String[] args) {
 
 		Kalkulator calculator = new Kalkulator();
-		Ispis ispisivanje = new Ispis();
+		Ispis ispis = new Ispis();
 
-		ispisivanje.ispis();
+		ispis.ispis();
 		Scanner unos = new Scanner(System.in);
 
 		int unosKorisnika = unos.nextInt();
